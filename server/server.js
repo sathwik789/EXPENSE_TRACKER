@@ -14,9 +14,11 @@ const allowedOrigins = [process.env.CLIENT_URL, "http://localhost:5173"];
 
 app.use(cors({
   origin: function (origin, callback) {
+    console.log("Incoming origin :",origin);
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
+      console.log("Blocked by CORS:",origin);
       callback(new Error("Not allowed by CORS"));
     }
   },
