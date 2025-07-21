@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import  {LuPlus} from "react-icons/lu";
-import CustomBarChart from '../Charts/CustombarChart';
 import { prepareExpenseLineChartData } from '../../utils/helper';
 import CustomLineChart from '../Charts/CustomLineChart';
 
