@@ -35,10 +35,6 @@ Expense_Tracker/
 │ └── server.js
 └── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚙️ **Tech Stack**
@@ -69,20 +65,15 @@ Edit
 
 ### 🔧 **1. Clone the repository**
 
-```bash
+
 git clone https://github.com/yourusername/Expense_Tracker.git
 cd Expense_Tracker
+
 ⚙️ 2. Setup Backend
-bash
-Copy
-Edit
 cd server
 npm install
 Create a .env file inside server directory:
 
-ini
-Copy
-Edit
 PORT=8000
 MONGO_URL=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
@@ -92,29 +83,19 @@ EMAIL_PORT=587
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_email_password_or_app_password
 Start backend:
-
-bash
-Copy
-Edit
 npm start
+
 ⚛️ 3. Setup Frontend
-bash
-Copy
-Edit
+
 cd client
 npm install
+
 Create a .env file inside client directory:
-
-ini
-Copy
-Edit
 VITE_API_URL=https://your-backend-url.onrender.com/api/v1
-Start frontend:
 
-bash
-Copy
-Edit
+Start frontend:
 npm run dev
+
 🌐 Deployment
 🚀 Frontend (Vercel)
 Push your client folder to a separate GitHub repository (if deploying standalone).
