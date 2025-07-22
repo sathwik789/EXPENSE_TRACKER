@@ -103,7 +103,7 @@ const Home = () => {
                 <InfoCard
                   icon={<IoMdCard />}
                   label="Total Balance"
-                  value={addThousandsSeperator(dashboardData.totalBalance || 0)}
+                  value={`₹${addThousandsSeperator(dashboardData.totalBalance || 0)}`}
                   color="bg-gradient-to-r from-indigo-500 to-indigo-600"
                 />
               </div>
@@ -111,7 +111,7 @@ const Home = () => {
                 <InfoCard
                   icon={<IoMdCard />}
                   label="Total Income"
-                  value={addThousandsSeperator(dashboardData.totalIncome || 0)}
+                  value={`₹${addThousandsSeperator(dashboardData.totalIncome || 0)}`}
                   color="bg-gradient-to-r from-emerald-500 to-emerald-600"
                 />
               </div>
@@ -119,7 +119,7 @@ const Home = () => {
                 <InfoCard
                   icon={<IoMdCard />}
                   label="Total Expense"
-                  value={addThousandsSeperator(dashboardData.totalExpense || 0)}
+                  value={`₹${addThousandsSeperator(dashboardData.totalExpense || 0)}`}
                   color="bg-gradient-to-r from-rose-500 to-rose-600"
                 />
               </div>
