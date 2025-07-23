@@ -12,7 +12,6 @@ const generateToken = (id) => {
 // Register User
 exports.registerUser = async (req, res) => {
   const { fullName, email, password, profileImageUrl } = req.body || {};
-  console.log("📨 Received register payload:", req.body);
   if (!fullName || !email || !password) {
     return res.status(400).json({ message: "All fields are required" });
   }

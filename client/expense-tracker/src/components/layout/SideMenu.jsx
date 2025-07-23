@@ -20,7 +20,7 @@ const SideMenu = () => {
   const handleLogout = () => {
     localStorage.clear();
     clearUser();
-    navigate("/login"); // fixed typo: was `navigaate`
+    navigate("/login");
   };
 
   return (
