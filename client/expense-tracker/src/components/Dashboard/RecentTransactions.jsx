@@ -4,7 +4,6 @@ import TransactionInfoCard from '../cards/TransactionInfoCard';
 import moment from 'moment';
 
 const RecentTransactions = ({ transactions, onSeeMore }) => {
-  console.log("Transactions received:", transactions);
 
   return (
     <div className='card'>

@@ -23,7 +23,7 @@ const Input = ({value,onChange,placeholder,label,type}) => {
                 {showPassword ? (
                     <FaRegEye
                     size = {22}
-                    className='text-primaru cursor-pointer'
+                    className='text-primary cursor-pointer'
                     onClick={() => toggelShowPassword()}
                     />
                 ) : (

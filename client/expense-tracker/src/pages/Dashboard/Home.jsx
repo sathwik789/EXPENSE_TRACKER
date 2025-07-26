@@ -21,7 +21,6 @@ const Home = () => {
   const [dashboardData, setDashboardData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  console.log("Home component rendered");
   
   useEffect(() => {
     let isMounted = true; // track if component is still mounted
