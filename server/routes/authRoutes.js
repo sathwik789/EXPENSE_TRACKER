@@ -23,6 +23,7 @@ router.post("/upload-image", upload.single("image"), (req, res) => {
   const serverUrl = process.env.BACKEND_URL || `${req.protocol}://${req.get("host")}`;
   const imageUrl = `${serverUrl}/uploads/${req.file.filename}`;
 
+  console.log("Uploaded image URL: ",imageUrl);
   res.status(200).json({ imageUrl });
 });
 
