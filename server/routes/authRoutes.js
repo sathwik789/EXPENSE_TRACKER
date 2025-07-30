@@ -20,7 +20,7 @@ router.post("/upload-image", upload.single("image"), (req, res) => {
   }
 
   // Use BACKEND_URL from env, fallback to request protocol+host (for localhost testing)
-  const serverUrl = 'https://expense-tracker-backend-82la.onrender.com' || `${req.protocol}://${req.get("host")}`;
+  const serverUrl = process.env.BACKEND_URL || `${req.protocol}://${req.get("host")}`;
   const imageUrl = `${serverUrl}/uploads/${req.file.filename}`;
 
   res.status(200).json({ imageUrl });
