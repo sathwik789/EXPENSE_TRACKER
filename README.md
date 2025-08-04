@@ -23,17 +23,17 @@ An interactive, full-stack Expense Tracker web application with **user authentic
 ## 📂 **Project Structure**
 
 Expense_Tracker/
-├── client/ # React frontend (Vite)
-│ ├── src/
-│ └── vite.config.js
-├── server/ # Node.js + Express backend
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── middleware/
-│ ├── config/
-│ └── server.js
-└── README.md
+├── client/ # React frontend (Vite)<br>
+│ ├── src/ <br>
+│ └── vite.config.js <br>
+├── server/ # Node.js + Express backend <br>
+│ ├── controllers/ <br>
+│ ├── models/ <br> 
+│ ├── routes/ <br>
+│ ├── middleware/ <br>
+│ ├── config/ <br>
+│ └── server.js <br>
+└── README.md <br>
 
 ---
 
@@ -74,15 +74,15 @@ cd server
 npm install
 Create a .env file inside server directory:
 
-PORT=8000
-MONGO_URL=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-CLIENT_URL=https://your-frontend-url.vercel.app
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_email_password_or_app_password
-Start backend:
+PORT=8000 <br>
+MONGO_URL=your_mongodb_connection_string <br>
+JWT_SECRET=your_jwt_secret <br>
+CLIENT_URL=https://your-frontend-url.vercel.app <br>
+EMAIL_HOST=smtp.gmail.com <br>
+EMAIL_PORT=587 <br>
+EMAIL_USER=your_email@gmail.com <br>
+EMAIL_PASS=your_email_password_or_app_password <br>
+Start backend: 
 npm start
 
 ⚛️ 3. Setup Frontend
