@@ -66,7 +66,7 @@ Expense_Tracker/
 ### 🔧 **1. Clone the repository**
 
 
-git clone https://github.com/yourusername/Expense_Tracker.git
+git clone https://github.com/sathwik789/Expense_Tracker.git
 cd Expense_Tracker
 
 ⚙️ 2. Setup Backend
